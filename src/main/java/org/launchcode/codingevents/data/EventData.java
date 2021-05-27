@@ -17,6 +17,7 @@ public class EventData {
 
 
     //get a single event
+    //TODO does it need to be changed?
     public static Event getId(int id) {
         return events.get(id);
     }
