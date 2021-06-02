@@ -1,5 +1,6 @@
 package org.launchcode.codingevents.models;
 
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 public class Event {
@@ -7,7 +8,7 @@ public class Event {
     private int id;
     private static int nexId = 1;
 
-//    @Size
+    @Size
     private String name;
     private String description;
 
