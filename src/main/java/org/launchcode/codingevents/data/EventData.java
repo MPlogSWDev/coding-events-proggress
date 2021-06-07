@@ -1,6 +1,7 @@
 package org.launchcode.codingevents.data;
 
 import org.launchcode.codingevents.models.Event;
+import org.springframework.ui.Model;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -18,7 +19,8 @@ public class EventData {
 
     //get a single event
     //TODO does it need to be changed?
-    public static Event getId(int id) {
+    public static Event getId( int id) {
+
         return events.get(id);
     }
 
